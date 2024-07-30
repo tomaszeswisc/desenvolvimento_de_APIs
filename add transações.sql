@@ -1,5 +1,7 @@
 USE finance_db;
 
+ALTER TABLE users ADD COLUMN birth_date DATE;
+
 INSERT INTO users (name, email, password, birth_date) VALUES
 ('Joana Dark', 'joanadark@apifinance.com', '123456', '1990-01-01');
 
